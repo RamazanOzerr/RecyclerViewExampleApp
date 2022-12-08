@@ -33,10 +33,10 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/text"
                 android:text="NAME"
-                app:layout_constraintStart_toEndOf="@+id/image"
+                app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintBottom_toBottomOf="parent"
-                android:layout_marginLeft="30dp"
+                app:layout_constraintEnd_toEndOf="parent"
                 />
 
 
